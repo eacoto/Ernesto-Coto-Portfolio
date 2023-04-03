@@ -1,1 +1,6 @@
 .hugo_build.lock
+.DS_Store
+assets/
+static/
+themes/.DS_Store
+themes/hugo-profile
