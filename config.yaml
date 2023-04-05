@@ -53,8 +53,8 @@ markup:
     #   weight: 2
 
 params:
-  title: "Hugo Profile"
-  description: Text about my cool site
+  # title: "Hugo Profile"
+  # description: Text about my cool site
   # staticPath: ""  # The path to serve the static files from
   favicon: "/fav.png"
 
@@ -113,16 +113,15 @@ params:
       disableProjects: false
       disableAchievements: false
       disableContact: false
-      
 
   # Hero
   hero:
     enable: true
     intro: "Hi, my name is"
-    title: "Isabella."
-    subtitle: "I build things for the web"
-    content: "A passionate web app developer. I tend to make use of modern web technologies to build websites that looks great, feels fantastic, and functions correctly."
-    image: /images/hero.svg
+    title: "ERNESTO C."
+    subtitle: "Im Web developer"
+    content: "A Designer & Web Developer. I use of modern web technologies to build websites that looks great, and functions correctly"
+    image: /images/hero.png
     # roundImage: true # Make hero image circular | default false
     button:
       enable: true
@@ -143,12 +142,13 @@ params:
   # About
   about:
     enable: true
-    title: "About Me"
-    image: "/images/me.png"
+    title: "About"
+    image: "/images/ernesto.png"
+    
     content: |-
-      I am a software developer with a passion for web development. I have a background in computer science and mathematics, and I have a strong interest in the intersection of technology and art. I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. 
+     I am a Designer with a passion for web development. I have a background in computer science and IT, and I have a strong interest in the intersection of technology and art. I am currently working as Freelacer Web developer.
 
-      I am currently working on a project that will be used to help people find the best way to get around the city.
+      I am currently working in projects that help people in finding websites that best suit their requirements and preferences in terms of Design and functionality.
     skills:
       enable: true
       title: "Here are a few technologies I've been working with recently:"
@@ -227,7 +227,7 @@ params:
 
   # Education
   education:
-    enable: true
+    enable: false
     # title: "Custom Name"
     index: false
     items:
@@ -270,7 +270,7 @@ params:
 
   # Achievements
   achievements:
-    enable: true
+    enable: false
     # title: "Custom Name"
     items:
       - title: Google kickstart runner
@@ -355,7 +355,7 @@ params:
       path: "blogs"
       count: 3
       title: Recent Posts
-      enable: true
+      enable: false
       disableFeaturedImage: false
     socialNetworks:
       github: https://github.com
