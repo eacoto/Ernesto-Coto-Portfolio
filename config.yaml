@@ -2,7 +2,7 @@ baseURL: "https://hugo-profile.netlify.app"
 languageCode: "en-us"
 title: "Hugo Profile"
 theme: hugo-profile
-
+ 
 outputs:
   home:
     - "HTML"
@@ -72,8 +72,8 @@ params:
   animate: true
 
   theme:
-    # disableThemeToggle: true
-     defaultTheme: "dark" # dark
+     disableThemeToggle: false
+     defaultTheme: "dark" # dark ligth
 
   font:
     fontSize: 1rem # default: 1rem
@@ -82,22 +82,21 @@ params:
     textAlign: left # default: left
 
   # color preference
-  # color:
-  #   textColor:
-  #   secondaryTextColor:
-  #   backgroundColor:
-  #   secondaryBackgroundColor:
-  #   primaryColor:
-  #   secondaryColor:
+  color:
+    textColor: '#4F4F4F' #'#0D0208'
+    #secondaryTextColor: '#A9C7C5'
+    backgroundColor: '#EDFFFE'
+    #secondaryBackgroundColor: '#008F11'
+    primaryColor: '#A9C7C5' 
+    #secondaryColor: '#008F11'
 
-   
-    darkmode:
-       textColor: '#464646'
-  #     secondaryTextColor:
-  #     backgroundColor:
-  #     secondaryBackgroundColor:
-  #     primaryColor:
-  #     secondaryColor:
+  darkmode:
+    textColor: '#008F11'
+    secondaryTextColor: '#0D0208'
+    backgroundColor: '#4E4E4E'
+    secondaryBackgroundColor: '#0D0208'
+    primaryColor: '#008F11'
+    secondaryColor: '#0D0208'
 
   # If you want to customize the menu, you can change it here
   navbar:
@@ -141,7 +140,7 @@ params:
 
   # About
   about:
-    enable: true
+    enable: trueÏ
     title: "About"
     image: "/images/ernesto.png"
     
