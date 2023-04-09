@@ -76,7 +76,7 @@ params:
      defaultTheme: "dark" # dark ligth
 
   font:
-    fontSize: 1rem # default: 1rem
+    fontSize: 14rem # default: 1rem
     fontWeight: 400 # default: 400
     lineHeight: 1.5 # default: 1.5
     textAlign: left # default: left
@@ -84,11 +84,11 @@ params:
   # color preference
   color:
     textColor: '#4F4F4F' #'#0D0208'
-    #secondaryTextColor: '#A9C7C5'
+    secondaryTextColor: '#A9C7C5'
     backgroundColor: '#EDFFFE'
-    #secondaryBackgroundColor: '#008F11'
+    secondaryBackgroundColor: '#008F11'
     primaryColor: '#A9C7C5' 
-    #secondaryColor: '#008F11'
+    secondaryColor: '#008F11'
 
   darkmode:
     textColor: '#008F11'
