@@ -83,18 +83,20 @@ params:
 
   # color preference
   color:
-    textColor: '#4F4F4F' #'#0D0208'
+    textColor: '#4F4F4F' #'#0D0208'  
     secondaryTextColor: '#A9C7C5'
     backgroundColor: '#EDFFFE'
     secondaryBackgroundColor: '#008F11'
     primaryColor: '#A9C7C5' 
     secondaryColor: '#008F11'
 
+# my pallet "008F11=green" "0D0208=black" "A9C7C5= ligth green" "EDFFFE=white"
+
   darkmode:
-    textColor: '#008F11'
-    secondaryTextColor: '#0D0208'
-    backgroundColor: '#4E4E4E'
-    secondaryBackgroundColor: '#0D0208'
+    textColor: '#EDFFFE' #'#008F11'
+    #secondaryTextColor: '#A9C7C5'
+    #backgroundColor: '#A9C7C5'
+    secondaryBackgroundColor: '#EDFFFE'
     primaryColor: '#008F11'
     secondaryColor: '#0D0208'
 
