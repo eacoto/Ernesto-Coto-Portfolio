@@ -3,4 +3,4 @@
 assets/
 static/
 themes/.DS_Store
-themes/hugo-profile
+./themes/hugo-profile
