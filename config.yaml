@@ -155,31 +155,32 @@ params:
       title: "Here are a few technologies I've been working with recently:"
       items:
         - "HTML"
+
+        - "TailWind CSS"
         - "CSS"
+        - "Bootstrap"
         - "JavaScript"
-        - "React"
-        - "Node"
-        - "Express"
+
 
   # Experience
   experience:
     enable: true
     # title: "Custom Name"
     items:
-      - job: "Senior Software Developer"
-        company: "Facebook"
-        companyUrl: "https://example.com"
+      - job: "Front End Developer"
+        company: "CotoStudio" 
+        companyUrl: "https://coto.studio/"
         date: "Jan 2022 - present"
         featuredLink:
-          enable: true
+          enable: false
           name: "View the project"
           url: "https://example.com"
-        content: "I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city."
+        content: "I am currently working as a Front End Developer at [coto.studio](https://coto.studio/) , CA. I am currently working on a project that will be used to help people find the best way to get around the city."
 
-      - job: "Software Developer"
-        company: "Amazon"
+      - job: "Director, Designer"
+        company: "Bordatec"
         companyUrl: "https://example.com"
-        date: "Sep 2020 - Dec 2021"
+        date: "Sep 2018 - Dec 2021"
         featuredLink:
           enable: true
           url: "https://example.com"
@@ -192,7 +193,7 @@ params:
           - Lead backend developer for a product.
           - Created a frontend design for a product.
 
-      - job: "Junior Software Developer"
+      # - job: "Junior Software Developer"
         company: "Apple"
         companyUrl: "https://example.com"
         date: "Jan 2020 - Aug 2020"
@@ -207,7 +208,7 @@ params:
           - Lead backend developer for a product.
           - Created a frontend design for a product.
 
-      - job: "UI/UX Designer"
+     # - job: "UI/UX Designer"
         company: "Netflix"
         companyUrl: "https://example.com"
         date: "June 2017 - Nov 2019"
@@ -220,7 +221,7 @@ params:
           - Lead backend developer for a product.
           - Created a frontend design for a product.
 
-      - job: "Product Designer"
+      #- job: "Product Designer"
         company: "Google"
         companyUrl: "https://example.com"
         date: "Feb 2016 - Mar 2017"
@@ -257,16 +258,16 @@ params:
             - Lorem ipsum dolor sit amet consectetur adipisicing elit. 
             - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
         featuredLink:
-          enable: true
+          enable: false
           name: "My academic record"
           url: "https://example.com"
-      - title: "High School"
+      #- title: "High School"
         school:
           name: "Thomas Jefferson High School for Science and Technology."
           url: "https://example.org"
         GPA: "4.2 out of 5.0"
         featuredLink:
-          enable: true
+          enable: false
           url: "https://example.com"
 
   # Achievements
